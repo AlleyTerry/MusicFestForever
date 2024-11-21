@@ -1,0 +1,13 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "DialogueTemplate.yarn",
+    ""
+  ],
+  "excludeFiles": [
+    "**/*~/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "compilerOptions": {}
+}
