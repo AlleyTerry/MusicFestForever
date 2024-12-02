@@ -1,8 +1,8 @@
 {
   "projectFileVersion": 2,
   "sourceFiles": [
-    "DialogueTemplate.yarn",
-    ""
+    "ShoelaceMissionStart.yarn",
+    "Shoelace.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

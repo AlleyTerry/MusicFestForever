@@ -10,8 +10,14 @@ public class InputHandler : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
     public DialogueRunner dialogueRunner;
+   
 
     private void Awake()
+    {
+        mainCamera = Camera.main;
+    }
+
+    private void Update()
     {
         mainCamera = Camera.main;
     }

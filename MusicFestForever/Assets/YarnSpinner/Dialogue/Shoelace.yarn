@@ -1,0 +1,22 @@
+﻿title: Shoelace
+tags:
+---
+<<declare $ShoelaceGet = false>>
+<<if $shoelaceMissionStart == true>>
+*Tara goes back to the field and sees the frat boy, passed out*
+*Tara notices the Longest Shoelace in the World, sticking out of his unlaced sneaker*
+Tara: That's probably the longest shoelace I've ever seen.
+Tara: Maybe he tripped and fell on his face and that's why he's unconscious.
+Tara: ...I should just get the shoelace and get on with it.
+*Tara takes the shoelace*
+*drunkenly mumbles to himself*
+Frat Bro: ...dude, I swear, the My Little Ponies aren't mine...
+Tara: I'd better go.
+<<set $ShoelaceGet = true>>
+<<ShoelaceGet GameManager>>
+<<else>>
+Tara: That is a weird looking shoelace...
+<<endif>>
+
+
+===

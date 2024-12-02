@@ -1,0 +1,62 @@
+﻿title: ShoelaceMissionStart
+tags:
+position: -82,-126
+---
+<<declare $shoelaceMissionStart = false>>
+<<declare $isEaten = false>>
+<<if $ShoelaceGet == true>>
+*Tara returns with the Shoelace and finds the Volunteer*
+Tara: I got the shoelace for you.
+Volunteer: You found the Holy Grail of shoelaces. Good work.
+Tara: Um, thanks. Will you tell me where my friend is now?
+Volunteer: You know I used to work at the RenFaire?
+Tara: I didn't, actually.
+Volunteer: This is no RenFaire, my friend. This is a dump.
+Volunteer: The RenFaire had entertainment, not this drivel. Jousting, violence, mead flowing like water...
+Tara: Sounds nice. So can you--
+Volunteer: The smell of turkey legs and smoke hanging over everything... it was magical.
+Tara: I mean you kind of still get the smoke--
+Volunteer: It's not the same. You wouldn't understand.
+Tara: ...Can you just tell me where my friend is?
+Volunteer: I wish someone would start a fire or something.
+Tara: Please?
+Volunteer: Fine, fine. She's backstage with the big boss.
+Tara: ...I'm sorry, what?
+Volunteer: Backstage. Here, you want to find her so bad?
+*Volunteer gives Tara the backstage pass*
+Volunteer: I confiscated this from some drunk girl who tried to sneak in a lighter.
+Volunteer: Hey, you know, if you're into arson at all, I left the lighter in the contraband box.
+Volunteer: Have at it!
+Tara: ...Thanks. I hope you can work at the RenFaire again soon.
+Volunteer: From your mouth to god's ears.
+<<endif>>
+///In the tents
+
+<<if $isEaten == true>>
+/// this plays after the player sees glitter glue get eaten
+Tara: Oh, it's you again! Have you seen my friend?
+Volunteer: Maybe I have. Maybe I haven't.
+Tara: ...Okay. Um. Would you... tell me?
+Volunteer: If you provided a boon, perhaps I would.
+Tara: A boon?
+Volunteer: Fetch me the shoelace of a drunken frat bro, and I'll tell you.
+Tara: Why do you need a shoelace?
+Volunteer: Is that your business? Do you want to know where your friend is, or not?
+Tara: Do you actually know where she is?
+Volunteer: I know everything that goes on here.
+Tara: Does the shoelace have to be from a drunk frat bro?
+Volunteer: Yes. Nothing else will do.
+Tara: Can I ask... why?
+Volunteer: ...
+Volunteer: I want to practice.
+Tara: What?
+Volunteer: I want to practice tying my shoes.
+Tara: ...
+Tara: Okay.
+(I should look around, where was he again?)
+
+
+
+
+<<endif>>
+===
