@@ -183,6 +183,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -826,7 +852,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frat-guy-+-extras_0: -5122962889485175612
+      frat-guy-+-extras_1: 2558188669257341517
+      frat-guy-+-extras_10: 6662340345345488429
+      frat-guy-+-extras_11: 7673323636183603731
+      frat-guy-+-extras_12: -8902985661451740627
+      frat-guy-+-extras_13: 348225893356582116
+      frat-guy-+-extras_14: 3538122072700185005
+      frat-guy-+-extras_15: 8618636147108044265
+      frat-guy-+-extras_16: -8476711191640823548
+      frat-guy-+-extras_17: 900239670618559324
+      frat-guy-+-extras_18: -6539332930752668262
+      frat-guy-+-extras_19: 6846311687966410803
+      frat-guy-+-extras_2: 5943615665763350356
+      frat-guy-+-extras_20: -8552064797000501136
+      frat-guy-+-extras_21: 6077570478072845122
+      frat-guy-+-extras_22: -3464376462298362718
+      frat-guy-+-extras_23: -6554831219923145338
+      frat-guy-+-extras_24: 5393600933861893107
+      frat-guy-+-extras_25: 1805497346778540682
+      frat-guy-+-extras_26: 8115735731049072267
+      frat-guy-+-extras_27: 1714301516693295550
+      frat-guy-+-extras_28: 4208910436317957822
+      frat-guy-+-extras_29: 7560159060163796058
+      frat-guy-+-extras_3: 983211885300516620
+      frat-guy-+-extras_4: -4047217652460965738
+      frat-guy-+-extras_5: -5592965058556526994
+      frat-guy-+-extras_6: 7160861621353968417
+      frat-guy-+-extras_7: 1081082534933515995
+      frat-guy-+-extras_8: -1237618646607738416
+      frat-guy-+-extras_9: -5225757169433941502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

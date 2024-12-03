@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 1115142937}
   - component: {fileID: 1115142936}
   - component: {fileID: 1115142938}
+  - component: {fileID: 1115142939}
   m_Layer: 0
   m_Name: Shoelace
   m_TagString: Untagged
@@ -769,6 +770,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.85, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1115142939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115142934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d18101466438549aec24805465a63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1545616218
 GameObject:
   m_ObjectHideFlags: 0
