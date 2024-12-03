@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: feb51d2f125b7544da4d989c86fcc167
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5122962889485175612
+    second: frat-guy-+-extras_0
+  - first:
+      213: 2558188669257341517
+    second: frat-guy-+-extras_1
+  - first:
+      213: 5943615665763350356
+    second: frat-guy-+-extras_2
+  - first:
+      213: 983211885300516620
+    second: frat-guy-+-extras_3
+  - first:
+      213: -4047217652460965738
+    second: frat-guy-+-extras_4
+  - first:
+      213: -5592965058556526994
+    second: frat-guy-+-extras_5
+  - first:
+      213: 7160861621353968417
+    second: frat-guy-+-extras_6
+  - first:
+      213: 1081082534933515995
+    second: frat-guy-+-extras_7
+  - first:
+      213: -1237618646607738416
+    second: frat-guy-+-extras_8
+  - first:
+      213: -5225757169433941502
+    second: frat-guy-+-extras_9
+  - first:
+      213: 6662340345345488429
+    second: frat-guy-+-extras_10
+  - first:
+      213: 7673323636183603731
+    second: frat-guy-+-extras_11
+  - first:
+      213: -8902985661451740627
+    second: frat-guy-+-extras_12
+  - first:
+      213: 348225893356582116
+    second: frat-guy-+-extras_13
+  - first:
+      213: 3538122072700185005
+    second: frat-guy-+-extras_14
+  - first:
+      213: 8618636147108044265
+    second: frat-guy-+-extras_15
+  - first:
+      213: -8476711191640823548
+    second: frat-guy-+-extras_16
+  - first:
+      213: 900239670618559324
+    second: frat-guy-+-extras_17
+  - first:
+      213: -6539332930752668262
+    second: frat-guy-+-extras_18
+  - first:
+      213: 6846311687966410803
+    second: frat-guy-+-extras_19
+  - first:
+      213: -8552064797000501136
+    second: frat-guy-+-extras_20
+  - first:
+      213: 6077570478072845122
+    second: frat-guy-+-extras_21
+  - first:
+      213: -3464376462298362718
+    second: frat-guy-+-extras_22
+  - first:
+      213: -6554831219923145338
+    second: frat-guy-+-extras_23
+  - first:
+      213: 5393600933861893107
+    second: frat-guy-+-extras_24
+  - first:
+      213: 1805497346778540682
+    second: frat-guy-+-extras_25
+  - first:
+      213: 8115735731049072267
+    second: frat-guy-+-extras_26
+  - first:
+      213: 1714301516693295550
+    second: frat-guy-+-extras_27
+  - first:
+      213: 4208910436317957822
+    second: frat-guy-+-extras_28
+  - first:
+      213: 7560159060163796058
+    second: frat-guy-+-extras_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frat-guy-+-extras_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 79
+        width: 752
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c43ab6056497e8b0800000000000000
+      internalID: -5122962889485175612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1563
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a53837a03808320800000000000000
+      internalID: 2558188669257341517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1569
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457754715f6fb7250800000000000000
+      internalID: 5943615665763350356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_3
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 857
+        width: 246
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07874a100215ad00800000000000000
+      internalID: 983211885300516620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1182
+        width: 176
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690bf58fcf465d7c0800000000000000
+      internalID: -4047217652460965738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_5
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1569
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ef09b79ebc162b0800000000000000
+      internalID: -5592965058556526994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1557
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123f78a64bd706360800000000000000
+      internalID: 7160861621353968417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_7
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1545
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde479376d6c00f00800000000000000
+      internalID: 1081082534933515995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_8
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1367
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9cb89e56813dee0800000000000000
+      internalID: -1237618646607738416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 936
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a6079aa816a77b0800000000000000
+      internalID: -5225757169433941502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_10
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 887
+        width: 162
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d263219de33657c50800000000000000
+      internalID: 6662340345345488429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 315
+        width: 491
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a155d213f1d7a60800000000000000
+      internalID: 7673323636183603731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_12
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 811
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad5c006bd327480800000000000000
+      internalID: -8902985661451740627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_13
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 724
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4bc13ea9525d400800000000000000
+      internalID: 348225893356582116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_14
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 793
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da96343874fe91130800000000000000
+      internalID: 3538122072700185005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_15
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 773
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed57bc89eb8b9770800000000000000
+      internalID: 8618636147108044265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_16
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 471
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409abae251cac5a80800000000000000
+      internalID: -8476711191640823548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 306
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531fe3f53b4e7c00800000000000000
+      internalID: 900239670618559324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 313
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d197aa85f9f35a0800000000000000
+      internalID: -6539332930752668262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_19
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 304
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338c7d6f43cf20f50800000000000000
+      internalID: 6846311687966410803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 282
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07879aeb066f05980800000000000000
+      internalID: -8552064797000501136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 78
+        width: 585
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243dee2462ed75450800000000000000
+      internalID: 6077570478072845122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 264
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac4b7c66ff0cefc0800000000000000
+      internalID: -3464376462298362718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_23
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 226
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d27d50cbf8805a0800000000000000
+      internalID: -6554831219923145338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 231
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3ad0b097be9da40800000000000000
+      internalID: 5393600933861893107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 214
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a25ad554a6e0910800000000000000
+      internalID: 1805497346778540682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_26
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 167
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86002cf5a2e0a070800000000000000
+      internalID: 8115735731049072267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 154
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1da6c852c6ac710800000000000000
+      internalID: 1714301516693295550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 111
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe8a28fdbd096a30800000000000000
+      internalID: 4208910436317957822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frat-guy-+-extras_29
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 82
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c938a1c941be860800000000000000
+      internalID: 7560159060163796058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
