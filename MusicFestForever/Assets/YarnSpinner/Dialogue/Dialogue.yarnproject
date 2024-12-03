@@ -2,7 +2,12 @@
   "projectFileVersion": 2,
   "sourceFiles": [
     "ShoelaceMissionStart.yarn",
-    "Shoelace.yarn"
+    "Shoelace.yarn",
+    "Intro.yarn",
+    "drinkAttempt.yarn",
+    "findJennie.yarn",
+    "Glitterglue.yarn",
+    "Security.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

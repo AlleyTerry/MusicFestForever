@@ -11,10 +11,15 @@ public class GameManager : MonoBehaviour
     //variables
     public InMemoryVariableStorage variableStorage;
     public DialogueRunner dialogueRunner;
+    public bool intro = true;
+    public bool drinkAttempt = false;
+    public bool findJennie = false;
+    public bool Glitterglue = false;
     public bool shoelaceMissionStart = false;
-    public bool isEaten = true;
+    public bool isEaten = false;
     public string sceneName;
     public bool shoelaceGet = false;
+    public bool hasPass = false;
 
     private void Awake()
     {
@@ -54,6 +59,39 @@ public class GameManager : MonoBehaviour
         sceneName = SceneManager.GetActiveScene().name;
         variableStorage.SetValue("$shoelaceMissionStart", shoelaceMissionStart);
         variableStorage.SetValue("$isEaten", isEaten);
+        variableStorage.SetValue("$hasPass", hasPass);
+
+        if (sceneName == "Field" && intro)
+        {
+                intro = false;
+                drinkAttempt = true;
+                dialogueRunner.StartDialogue("Intro");
+                
+        }
+        if (sceneName == "Tent" && drinkAttempt)
+        {
+            drinkAttempt = false;
+            findJennie = true;
+            dialogueRunner.StartDialogue("drinkAttempt");
+                
+        }
+        if (sceneName == "Field" && findJennie)
+        {
+            
+            findJennie = false;
+            Glitterglue = true;
+            dialogueRunner.StartDialogue("findJennie");
+                
+        }
+        if (sceneName == "Porta" && Glitterglue)
+        {
+            
+            Glitterglue = false;
+            isEaten = true;
+            dialogueRunner.StartDialogue("Glitterglue");
+                
+        }
+
 
         if (sceneName == "Tent" && isEaten )
         {
@@ -66,7 +104,9 @@ public class GameManager : MonoBehaviour
             shoelaceGet = false;
             shoelaceMissionStart = false;
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
+            hasPass = true;
         }
         
+
     }
 }

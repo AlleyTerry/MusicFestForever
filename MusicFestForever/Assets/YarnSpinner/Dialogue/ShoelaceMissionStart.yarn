@@ -34,7 +34,12 @@ Volunteer: From your mouth to god's ears.
 
 <<if $isEaten == true>>
 /// this plays after the player sees glitter glue get eaten
-Tara: Oh, it's you again! Have you seen my friend?
+Tara: That- what was THAT?
+Tara: I- we need to leave.
+Volunteer: oh! Welcome to the Help desk
+Volunteer:...
+Volunteer: Hello?
+Tara: Oh, it's you again! Have you seen my friend? I-I need to leave-
 Volunteer: Maybe I have. Maybe I haven't.
 Tara: ...Okay. Um. Would you... tell me?
 Volunteer: If you provided a boon, perhaps I would.
