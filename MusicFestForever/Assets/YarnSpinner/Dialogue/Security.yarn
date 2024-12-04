@@ -3,18 +3,17 @@ tags:
 ---
 <<declare $hasPass = false>>
 <<if $hasPass == false>>
-*Tara goes towards backstage and finds the Security Creature barring the entrance*
+//*Tara goes towards backstage and finds the Security Creature barring the entrance*
 Tara: Um, excuse me.
-*the security creature does not budge*
+//*the security creature does not budge*
 Tara: Can I get through, please?
-Hissssssssssssssssssssssssssssss
+<i>Hissssssssssssssssssssssssssssss</i>
 Tara: Well, okay then.
 <<else>>
-
 Tara: Um, I have a backstage pass? For VIP?
-*she gives the pass to the Security Creature*
-Crunchcrunchcrunch
-*The creature eats the pass and departs, leaving the way open*
+//*she gives the pass to the Security Creature*
+<i>Crunchcrunchcrunch</i>
+//*The creature eats the pass and departs, leaving the way open*
 Tara: Oh god oh god what if he's about to eat her too? I'm coming, Jennie!
 <<endif>>
 ===
