@@ -8,11 +8,14 @@ tags:
     -> knock again?
     : ... urggghh
         -> jennie?
-        Stranger: urrgghh too many gluten free tacos
+        Stranger: Too many gluten free tacos...
         Tara: o-oh sorry have you seen my friend? She's wearing- 
-        Stranger: Does it LOOK like I've seen your friend, I've been here since Glitter Glue first went on stage, 3 hours ago
-        She's been on stage for 3 hours?
-        Stranger: Now if you excuse me, I need some privacy for this...
+        Stranger: Does it LOOK like I've seen your friend? 
+        Stranger: I've been here since Glitter Glue first went on stage, 3 hours ago.
+        Tara: She's been on stage for 3 hours?
+        Stranger: Now if you'll excuse me, I need some privacy for this...
+        Tara: Oh, uh, okay... Good luck?
+        Tara: ...Where could Jennie be?
         ???: *Huff* I cant' *Huff* keep doing this, I- *wheez* need a break.
         Tara: huh, who is that?
         ???: oh? Last time I checked, YOU signed a contract, don't you remember what YOU signed?
@@ -26,12 +29,19 @@ tags:
         ???: Maybe you are in need of... a brief retirement... do you agree?
         Glitterglue: Y-yeah! I just need a few hours and I'll be back!
         ???: It will be a shame, the hole you will leave, but the show must go on, and you are... very replaceable.
-        Glitterglue: wait what.
-        *rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
-        ???: *BURRRRRPPPPP* what a delicous meal, now I need to find a new replace- *cough* *hack*
-        *rat king throws up something of glitter glue* maybe an item the player can take later
-        ???: Ugh. Polyester.
-        *Tara backs up into one of the stalls in shock*
-        ???: *one half of his body turns around* Who's there?
+        Glitterglue: Wait, no, please!
+        //CRUNCH SOUND AND VIDEO PLAYS
+        <<hideSprite GlitterglueHideManager>>
+        //*rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
+        ???: *BURRRRRPPPPP* 
+        ???: what a delicous meal, now I need to find a new replace- 
+        ???: *cough* *hack*
+        <<playSplat SoundManager>>
+        <<revealSprite FabricHideManager>>
+        //*rat king throws up something of glitter glue* maybe an item the player can take later
+        ???: Ugh. Sequins. Can't digest 'em.
+        //*Tara backs up into one of the stalls in shock*
+        Tara: Oh my god, Glitterglue...
+        ???: Who's there?
         Tara: I gotta get out of here!
 ===

@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VIPPass_0: -8596879900058528151
+      VIPPass_1: -4840414016923736159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
