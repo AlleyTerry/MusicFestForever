@@ -10,6 +10,7 @@ public class CustomCommands : MonoBehaviour
     public AudioSource soundSource;
 
     public AudioClip wetSplat;
+    public AudioClip crunch;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,12 @@ public class CustomCommands : MonoBehaviour
     public void PlaySplat()
     {
         soundSource.PlayOneShot(wetSplat);
+    }
+
+    [YarnCommand("playCrunch")]
+    public void PlayCrunch()
+    {
+        soundSource.PlayOneShot(crunch);
     }
 
 }

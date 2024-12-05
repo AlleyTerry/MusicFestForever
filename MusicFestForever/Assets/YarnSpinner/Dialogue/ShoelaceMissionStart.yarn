@@ -5,8 +5,9 @@ position: -82,-126
 <<declare $shoelaceMissionStart = false>>
 <<declare $isEaten = false>>
 <<if $ShoelaceGet == true>>
+<<revealSprite ContrabandManager>>
 //*Tara returns with the Shoelace and finds the Volunteer*
-Tara: I got the shoelace for you.
+Tara: I got you a shoelace.
 Volunteer: You found the Holy Grail of shoelaces. Good work.
 Tara: Um, thanks. Will you tell me where my friend is now?
 Volunteer: You know I used to work at the RenFaire?
@@ -25,6 +26,7 @@ Tara: ...I'm sorry, what?
 Volunteer: Backstage. Here, you want to find her so bad?
 //*Volunteer gives Tara the backstage pass*
 //GIVE BACKSTAGE PASS
+<<set $hasPass to true>>
 Volunteer: I confiscated this from some drunk girl who tried to sneak in a lighter.
 Volunteer: Hey, you know, if you're into arson at all, I left the lighter in the contraband box.
 Volunteer: Have at it!
@@ -34,6 +36,7 @@ Volunteer: From your mouth to god's ears.
 ///In the tents
 
 <<if $isEaten == true>>
+<<hideSprite ContrabandManager>>
 /// this plays after the player sees glitter glue get eaten
 Tara: That... what was THAT?
 Tara: I- we need to leave. I need to find Jennie and get the hell out of here.
@@ -59,10 +62,6 @@ Tara: What?
 Volunteer: I want to practice tying my shoes.
 Tara: ...
 Tara: Okay.
-(Didn't I see a shoelace lying around somewhere? I should look around...)
-
-
-
-
+Tara: Didn't I see a shoelace lying around somewhere? I should look around...
 <<endif>>
 ===

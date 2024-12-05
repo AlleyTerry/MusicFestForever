@@ -1,22 +1,32 @@
 ﻿title: drinkAttempt
 tags:
 ---
-Tara: Hey could I get two of those squared hydration thingies?
-Volunteer: That'll be 79.99! We except apple pay, bitcoin, and pride coin
-Tara: huh, I think I misplaced my phone 
-Volunteer: Well we will also accept blood oaths, or your first born/adopted child!
-Tara: God, my head is pounding. Do you have any water?
-Volunteer: Yep! We have fresh mountain stream water, carbonated and full of B12 vitamins! That'll be 29.99!
-Tara: I meant for free? Do you have water for free?
-Volunteer: Nothing is free here sweet summer child. 
+<<hideSprite ContrabandManager>>
+Tara: Hey, could I get two of those Squared Hydration thingies?
+Volunteer: That'll be 79.99! 
+Volunteer: We except apple pay, bitcoin, and pride coin.
+Tara: Huh, I think I misplaced my phone.
+Volunteer: Well, we also accept blood oaths, or your first born/adopted child!
+Tara: God, my head is pounding. 
+Tara: Do you have any water?
+Volunteer: Yep! 
+Volunteer: We have fresh mountain stream water, carbonated and full of B12 vitamins! 
+Volunteer: That'll be 29.99!
+Tara: I meant for free? 
+Tara: Do you have water for free?
+Volunteer: Nothing is free here, sweet summer child. 
+Volunteer: Didn't you read the fine print on the NDA?
 Tara: What did you just say?
 Volunteer: I said, if you're not gonna buy anything, kindly get out of line.
 Tara: Is there any kind of lost and found help desk I could go to about my phone?
-Volunteer: Yes! It's opening in a few minutes once I clock out over here!
+Volunteer: Oh, totally. 
+Volunteer: It's right here.
+Volunteer: It's opening in a few minutes once I decide I'm done serving drinks!
 Tara: You also run the help desk?
-Volunteer: I churn the very wheels that keep this whole operation running sweet heart!
-Tara: Okay, well, I guess I'll see you over there?
-Volunteer: yup, right here!
-Tara: o-ok...
-Tara: (I should go tell Jennie first.)
+Volunteer: I churn the very wheels that keep this whole operation running, sweetheart.
+Tara: Um. Okay, well, I guess I'll see you in a few minutes?
+Volunteer: Yup, right here!
+Tara: ...Okay. Sounds like a plan.
+Tara: I should go let Jennie know about this so she doesn't worry.
+<<stop>>
 ===

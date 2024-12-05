@@ -20,16 +20,16 @@ tags:
         Tara: huh, who is that?
         ???: oh? Last time I checked, YOU signed a contract, don't you remember what YOU signed?
         ???: I- I know but I didn't think-
-        Tara: wait I know that voice! Glittergl-
+        Tara: wait I know that voice! Glitter Gl-
         ???: Now now, we wouldn't want to let down your fans who paid good money to be here?
-        Glitterglue: Wha-
+        Glitter Glue: Wha-
         ???: Because I can hear the headlines now "Glitter Glue abandons fans at lgbt music festival, guess she had more important things to do than show up for her community"
-        Glitterglue: No! That's not- I just- I physically can't anymore. I can't feel my legs and my voice, it's going...
+        Glitter Glue: No! That's not- I just- I physically can't anymore. I can't feel my legs and my voice, it's going...
         ???: Hmmm I guess you are right, that last performance was a little pitchy. And we do need our performers at their best shape.
         ???: Maybe you are in need of... a brief retirement... do you agree?
-        Glitterglue: Y-yeah! I just need a few hours and I'll be back!
+        Glitter Glue: Y-yeah! I just need a few hours and I'll be back!
         ???: It will be a shame, the hole you will leave, but the show must go on, and you are... very replaceable.
-        Glitterglue: Wait, no, please!
+        Glitter Glue: Wait, no, please!
         //CRUNCH SOUND AND VIDEO PLAYS
         <<hideSprite GlitterglueHideManager>>
         //*rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
@@ -41,7 +41,9 @@ tags:
         //*rat king throws up something of glitter glue* maybe an item the player can take later
         ???: Ugh. Sequins. Can't digest 'em.
         //*Tara backs up into one of the stalls in shock*
-        Tara: Oh my god, Glitterglue...
+        Tara: Oh my god, Glitter Glue...
+        Tara: Jennie's going to be devastated...
         ???: Who's there?
         Tara: I gotta get out of here!
+        <<stop>>
 ===

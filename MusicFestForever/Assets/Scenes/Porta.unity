@@ -1273,6 +1273,7 @@ MonoBehaviour:
   sprite: {fileID: 747420077}
   soundSource: {fileID: 0}
   wetSplat: {fileID: 0}
+  crunch: {fileID: 0}
 --- !u!4 &1255422721
 Transform:
   m_ObjectHideFlags: 0
@@ -1321,6 +1322,7 @@ MonoBehaviour:
   sprite: {fileID: 747420077}
   soundSource: {fileID: 1324048343}
   wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 0}
 --- !u!82 &1324048343
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1331,9 +1333,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1673,6 +1675,54 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1 &1722799399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722799401}
+  - component: {fileID: 1722799400}
+  m_Layer: 0
+  m_Name: SecurityManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1722799400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722799399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6e440b63307d041a82858b518fb9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1722799399}
+  soundSource: {fileID: 1324048343}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+--- !u!4 &1722799401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722799399}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.47592, y: 1.218215, z: 0.021569544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1794318709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2230,7 @@ MonoBehaviour:
   sprite: {fileID: 1795413992}
   soundSource: {fileID: 0}
   wetSplat: {fileID: 0}
+  crunch: {fileID: 0}
 --- !u!4 &2026855677
 Transform:
   m_ObjectHideFlags: 0
@@ -2293,3 +2344,4 @@ SceneRoots:
   - {fileID: 1255422721}
   - {fileID: 747420081}
   - {fileID: 1324048344}
+  - {fileID: 1722799401}
