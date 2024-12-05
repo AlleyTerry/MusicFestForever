@@ -2,6 +2,7 @@
 tags:
 ---
 <<hideSprite JennieManager>>
+<<disableRight ButtonManager>>
 <<hideSprite GlitterGlueManager>>
 Tara: Ugh, just my luck I'd lose my phone.
 Tara: And everything's digital and corporate now.
@@ -13,4 +14,5 @@ Tara: Ugh, she's always going off without saying anything.
 Tara: Could she have gone to the bathroom, maybe?
 Tara: Ugh. Those porta-potties are so...
 Tara: foul.
+<<enableRight ButtonManager>>
 ===

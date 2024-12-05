@@ -5,6 +5,7 @@ tags:
 <<if $shoelaceMissionStart == true>>
 <<revealSprite FratBoyManager>>
 <<revealSprite ShoelaceManager>>
+<<disableRight ButtonManager>>
 //*Tara goes back to the field and sees the frat boy, passed out*
 //*Tara notices the Longest Shoelace in the World, sticking out of his unlaced sneaker*
 Tara: That's probably the longest shoelace I've ever seen.
@@ -16,6 +17,7 @@ Tara: ...I should just get the shoelace and get on with it.
 //*drunkenly mumbles to himself*
 Frat Bro: ...dude, I swear, the My Little Ponies aren't mine...
 Tara: I'd better go.
+<<enableRight ButtonManager>>
 <<set $ShoelaceGet = true>>
 <<ShoelaceGet GameManager>>
 <<else>>

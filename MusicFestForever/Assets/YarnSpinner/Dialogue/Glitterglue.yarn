@@ -1,13 +1,15 @@
 ﻿title: Glitterglue
 tags:
 ---
--> knock?
-    Tara: Jennie? Are you in any of these?
+<<disableLeft ButtonManager>>
+<<disableRight ButtonManager>>
+-> Knock?
+    Tara: Jennie? Are you in any of these stalls?
 
     : ...
-    -> knock again?
+    -> Knock again?
     : ... urggghh
-        -> jennie?
+        -> Jennie?
         Stranger: Too many gluten free tacos...
         Tara: o-oh sorry have you seen my friend? She's wearing- 
         Stranger: Does it LOOK like I've seen your friend? 
@@ -32,11 +34,16 @@ tags:
         Glitter Glue: Wait, no, please!
         //CRUNCH SOUND AND VIDEO PLAYS
         <<hideSprite GlitterglueHideManager>>
+        <<playCrunch SoundSource>>
+        <<playEels VideoManager>>
+        <<wait  2>>
+        <<stopEels VideoManager>>
+        <<wait  1>>
         //*rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
         ???: *BURRRRRPPPPP* 
         ???: what a delicous meal, now I need to find a new replace- 
         ???: *cough* *hack*
-        <<playSplat SoundManager>>
+        <<playSplat SoundSource>>
         <<revealSprite FabricHideManager>>
         //*rat king throws up something of glitter glue* maybe an item the player can take later
         ???: Ugh. Sequins. Can't digest 'em.
@@ -45,5 +52,6 @@ tags:
         Tara: Jennie's going to be devastated...
         ???: Who's there?
         Tara: I gotta get out of here!
+        <<enableLeft ButtonManager>>
         <<stop>>
 ===

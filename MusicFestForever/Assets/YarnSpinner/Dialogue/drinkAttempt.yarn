@@ -2,6 +2,8 @@
 tags:
 ---
 <<hideSprite ContrabandManager>>
+<<disableLeft ButtonManager>>
+<<disableRight ButtonManager>>
 Tara: Hey, could I get two of those Squared Hydration thingies?
 Volunteer: That'll be 79.99! 
 Volunteer: We except apple pay, bitcoin, and pride coin.
@@ -28,5 +30,6 @@ Tara: Um. Okay, well, I guess I'll see you in a few minutes?
 Volunteer: Yup, right here!
 Tara: ...Okay. Sounds like a plan.
 Tara: I should go let Jennie know about this so she doesn't worry.
+<<enableLeft ButtonManager>>
 <<stop>>
 ===

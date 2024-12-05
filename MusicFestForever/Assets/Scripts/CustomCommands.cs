@@ -11,6 +11,9 @@ public class CustomCommands : MonoBehaviour
 
     public AudioClip wetSplat;
     public AudioClip crunch;
+    public AudioClip cheer;
+    public AudioClip explosion;
+    public AudioClip lighter;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +48,24 @@ public class CustomCommands : MonoBehaviour
     public void PlayCrunch()
     {
         soundSource.PlayOneShot(crunch);
+    }
+
+    [YarnCommand("playCheer")]
+    public void PlayCheer()
+    {
+        soundSource.PlayOneShot(cheer);   
+    }
+
+    [YarnCommand("playLighter")]
+    public void PlayLighter()
+    {
+        soundSource.PlayOneShot(lighter);
+    }
+
+    [YarnCommand("playExplosion")]
+    public void PlayExplosion()
+    {
+        soundSource.PlayOneShot(explosion);
     }
 
 }
