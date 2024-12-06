@@ -1,0 +1,54 @@
+﻿title: JennieFishKing
+tags:
+---
+<<disableLeft ButtonManager>>
+//Tara sees Jennie backstage --> click on either Jennie or Fish King
+???: I saw you in the crowd. You've got star power, kid.
+Jennie: Me? Really?
+???: As much as people who've got it have it.
+???: Do you dream of stardom, erm...
+Jennie: Jennie.
+???: I can make you a star, Jennie.
+Jennie: Oh my god, this is my Lizzie McGuire moment!
+???: Oh, sure, yes. This is just like Lozzie Magwyre.
+Jennie: Would I need a popstar name? Should I think of one, or does marketing do that?
+Jennie: Would we need to focus test it? Is there a theme?
+???: How about... Glitter Glue.
+Jennie: What? But she's already a person!
+???: Glitter Glue is... retired.
+???: Permanently.
+Tara: And you will be too, unless we <i>GET OUT OF HERE!</i>
+Jennie: Tara?! What are you doing here?
+Tara: We gotta go, Jennie, he's going to eat you-
+Jennie: What? This is my big break!
+???: Yes, you nobody, this is her big break!
+???: I'm the Fish King! I run this place! You can't stop me!
+The Fish King: Don't ruin this for me-I mean her!
+Tara: I have to do something...
+///if has molotov --> fabric, lighter, bottle
+Tara: Take this, you freak! Get molotov'd!
+<<playLighter FishKingManager>>
+<<wait  1>>
+//throws molotov --> animation
+<<playExplosion FishKingManager>>
+The Fish King: NOOOOO! Alcohol set on fire, my one weakness!
+The Fish King: I must douse myself immediately to retain my form!
+<<hideSprite FishKingManager>>
+Tara: Jennie, we gotta go.
+Jennie: Tara, what the hell?! He was going to make me a star!
+Tara: He was going to <i>eat you</i>.
+Jennie: But-
+Tara: We have to go, <i>now</i>.
+Jennie: This is exactly why I ended things with you! You never want to do anything fun!
+Tara: This is not fun!
+Tara: This is rainbow capitalism hell!
+Tara: I've spent the whole day trying to take care of you, looking for you.
+Tara: I just molotov'd that weird fish guy for you!
+Jennie: You're right, I'm sorry I said that. It's been really fun hanging out as friends today.
+Tara: I don't want to be friends with you, Jennie.
+Tara: I want us to leave this place, alive, and then never speak again.
+Tara: If you have ever cared about me at all, you'll leave with me right now.
+Jennie: You're so hot when you're bossy.
+Tara: Not now, Jennie.
+<<stop>>
+===

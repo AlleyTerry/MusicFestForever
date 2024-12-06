@@ -7,7 +7,8 @@
     "drinkAttempt.yarn",
     "findJennie.yarn",
     "Glitterglue.yarn",
-    "Security.yarn"
+    "Security.yarn",
+    "JennieFishKing.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

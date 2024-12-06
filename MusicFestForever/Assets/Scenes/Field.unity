@@ -856,7 +856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &781659743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -944,7 +944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &908540985
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1231,12 +1231,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1125934874}
-  soundSource: {fileID: 0}
-  wetSplat: {fileID: 0}
-  crunch: {fileID: 0}
-  cheer: {fileID: 0}
-  explosion: {fileID: 0}
-  lighter: {fileID: 0}
+  soundSource: {fileID: 475916456}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!4 &1087905591
 Transform:
   m_ObjectHideFlags: 0
@@ -1270,7 +1270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1115142936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1409,6 +1409,10 @@ PrefabInstance:
     - target: {fileID: 1130328634991630839, guid: 40170e9b96f5b7048a69f21d68c45b24, type: 3}
       propertyPath: m_Name
       value: Jennie
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130328634991630839, guid: 40170e9b96f5b7048a69f21d68c45b24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3095135480345500727, guid: 40170e9b96f5b7048a69f21d68c45b24, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1676,12 +1680,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 908540984}
-  soundSource: {fileID: 0}
-  wetSplat: {fileID: 0}
-  crunch: {fileID: 0}
-  cheer: {fileID: 0}
-  explosion: {fileID: 0}
-  lighter: {fileID: 0}
+  soundSource: {fileID: 475916456}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!4 &1455943699
 Transform:
   m_ObjectHideFlags: 0
@@ -1727,12 +1731,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1115142934}
-  soundSource: {fileID: 0}
-  wetSplat: {fileID: 0}
-  crunch: {fileID: 0}
-  cheer: {fileID: 0}
-  explosion: {fileID: 0}
-  lighter: {fileID: 0}
+  soundSource: {fileID: 475916456}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!4 &1498541557
 Transform:
   m_ObjectHideFlags: 0
@@ -1781,9 +1785,9 @@ MonoBehaviour:
   soundSource: {fileID: 475916456}
   wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
   crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
-  cheer: {fileID: 0}
-  explosion: {fileID: 0}
-  lighter: {fileID: 0}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!4 &1535623383
 Transform:
   m_ObjectHideFlags: 0

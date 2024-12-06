@@ -3,7 +3,8 @@ tags:
 ---
 <<hideSprite JennieManager>>
 <<disableRight ButtonManager>>
-<<hideSprite GlitterGlueManager>>
+//<<hideSprite GlitterGlueManager>>
+<<revealSprite GlitterGlueManager>>
 Tara: Ugh, just my luck I'd lose my phone.
 Tara: And everything's digital and corporate now.
 Tara: Look, Jennie, I know you really wanted the new Squared Hydration Cocktail

@@ -12,8 +12,8 @@ public class ButtonCommands : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        leftButton.gameObject.SetActive(false);
-        rightButton.gameObject.SetActive(false);
+        leftButton.gameObject.SetActive(true);
+        rightButton.gameObject.SetActive(true);
     }
 
     // Update is called once per frame

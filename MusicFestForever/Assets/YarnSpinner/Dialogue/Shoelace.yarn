@@ -3,25 +3,27 @@ tags:
 ---
 <<declare $ShoelaceGet = false>>
 <<if $shoelaceMissionStart == true>>
-<<revealSprite FratBoyManager>>
-<<revealSprite ShoelaceManager>>
-<<disableRight ButtonManager>>
-//*Tara goes back to the field and sees the frat boy, passed out*
-//*Tara notices the Longest Shoelace in the World, sticking out of his unlaced sneaker*
-Tara: That's probably the longest shoelace I've ever seen.
-Tara: And the most unconscious frat boy I've ever seen.
-Tara: Maybe he tripped and fell on his face and that's why he's unconscious.
-Tara: ...I should just get the shoelace and get on with it.
-//*Tara takes the shoelace*
-<<hideSprite ShoelaceManager>>
-//*drunkenly mumbles to himself*
-Frat Bro: ...dude, I swear, the My Little Ponies aren't mine...
-Tara: I'd better go.
-<<enableRight ButtonManager>>
-<<set $ShoelaceGet = true>>
-<<ShoelaceGet GameManager>>
+    <<revealSprite FratBoyManager>>
+    <<revealSprite ShoelaceManager>>
+    <<disableRight ButtonManager>>
+    //*Tara goes back to the field and sees the frat boy, passed out*
+    //*Tara notices the Longest Shoelace in the World, sticking out of his unlaced sneaker*
+    Tara: That's probably the longest shoelace I've ever seen.
+    Tara: And the most unconscious frat boy I've ever seen.
+    Tara: Maybe he tripped and fell on his face and that's why he's unconscious.
+    Tara: ...I should just get the shoelace and get on with it.
+    //*Tara takes the shoelace*
+    <<hideSprite ShoelaceManager>>
+    //*drunkenly mumbles to himself*
+    Frat Bro: ...dude, I swear, the My Little Ponies aren't mine...
+    Tara: I'd better go.
+    <<enableRight ButtonManager>>
+    <<set $ShoelaceGet = true>>
+    <<ShoelaceGet GameManager>>
 <<else>>
-Tara: That might just be the longest shoelace in the world.
+    <<revealSprite FratBoyManager>>
+    <<revealSprite ShoelaceManager>>
+    Tara: That might just be the longest shoelace in the world.
 <<endif>>
 
 

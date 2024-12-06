@@ -3,6 +3,7 @@ tags:
 ---
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
+<<hideSprite FabricHideManager>>
 -> Knock?
     Tara: Jennie? Are you in any of these stalls?
 
@@ -18,17 +19,22 @@ tags:
         Stranger: Now if you'll excuse me, I need some privacy for this...
         Tara: Oh, uh, okay... Good luck?
         Tara: ...Where could Jennie be?
-        ???: *Huff* I cant' *Huff* keep doing this, I- *wheez* need a break.
-        Tara: huh, who is that?
-        ???: oh? Last time I checked, YOU signed a contract, don't you remember what YOU signed?
-        ???: I- I know but I didn't think-
-        Tara: wait I know that voice! Glitter Gl-
+        Familiar Voice: *Huff* I cant' *Huff* keep doing this, I- *wheez* need a break.
+        Tara: Huh, who is that?
+        ???: Oh? Last time I checked, YOU signed a contract, don't you remember what YOU signed?
+        Familiar Voice: I- I know but I didn't think-
+        Tara: Wait, I know that voice! That's Glitter Glue!
+        <<revealSprite GlitterglueHideManager>>
+        <<revealSprite FishKingManager>>
         ???: Now now, we wouldn't want to let down your fans who paid good money to be here?
-        Glitter Glue: Wha-
+        Glitter Glue: But-
         ???: Because I can hear the headlines now "Glitter Glue abandons fans at lgbt music festival, guess she had more important things to do than show up for her community"
-        Glitter Glue: No! That's not- I just- I physically can't anymore. I can't feel my legs and my voice, it's going...
-        ???: Hmmm I guess you are right, that last performance was a little pitchy. And we do need our performers at their best shape.
-        ???: Maybe you are in need of... a brief retirement... do you agree?
+        Glitter Glue: No! That's not- I just- I physically can't anymore. 
+        Glitter Glue: I can't feel my legs and my voice, it's going...
+        ???: Hmmm I guess you are right, that last performance was a little pitchy. 
+        ???: And we do need our performers at their best shape.
+        ???: Maybe you are in need of... a brief retirement... 
+        ???: Do you agree?
         Glitter Glue: Y-yeah! I just need a few hours and I'll be back!
         ???: It will be a shame, the hole you will leave, but the show must go on, and you are... very replaceable.
         Glitter Glue: Wait, no, please!
@@ -36,9 +42,9 @@ tags:
         <<hideSprite GlitterglueHideManager>>
         <<playCrunch SoundSource>>
         <<playEels VideoManager>>
-        <<wait  2>>
+        <<wait  3.5>>
         <<stopEels VideoManager>>
-        <<wait  1>>
+        <<wait  1.5>>
         //*rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
         ???: *BURRRRRPPPPP* 
         ???: what a delicous meal, now I need to find a new replace- 

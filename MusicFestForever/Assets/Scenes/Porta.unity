@@ -284,6 +284,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &206506210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 206506212}
+  - component: {fileID: 206506211}
+  m_Layer: 0
+  m_Name: FishKingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &206506211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206506210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6e440b63307d041a82858b518fb9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 568359070}
+  soundSource: {fileID: 1324048343}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
+--- !u!4 &206506212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206506210}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &279048405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -593,6 +644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fishking_0
       objectReference: {fileID: 0}
+    - target: {fileID: 4265467059018643613, guid: 5e1d22ecac9c6d8409b8c61315a6299f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5674606691220660909, guid: 5e1d22ecac9c6d8409b8c61315a6299f, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -654,6 +709,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e1d22ecac9c6d8409b8c61315a6299f, type: 3}
+--- !u!1 &568359070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4265467059018643613, guid: 5e1d22ecac9c6d8409b8c61315a6299f, type: 3}
+  m_PrefabInstance: {fileID: 568359069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633747005
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +732,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &633747006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -726,7 +786,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633747005}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7d18101466438549aec24805465a63b, type: 3}
   m_Name: 
@@ -998,7 +1058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &747420078
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2078,7 +2138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1795413993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2534,12 +2594,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1795413992}
-  soundSource: {fileID: 0}
-  wetSplat: {fileID: 0}
-  crunch: {fileID: 0}
-  cheer: {fileID: 0}
-  explosion: {fileID: 0}
-  lighter: {fileID: 0}
+  soundSource: {fileID: 1324048343}
+  wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
+  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
+  explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!4 &2026855677
 Transform:
   m_ObjectHideFlags: 0
@@ -2655,3 +2715,4 @@ SceneRoots:
   - {fileID: 1722799401}
   - {fileID: 1508738539}
   - {fileID: 1106121670}
+  - {fileID: 206506212}

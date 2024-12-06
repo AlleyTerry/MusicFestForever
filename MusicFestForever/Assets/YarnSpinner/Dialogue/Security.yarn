@@ -5,7 +5,7 @@ tags:
 <<if $hasPass == false>>
     //*Tara goes towards backstage and finds the Security Creature barring the entrance*
     <<disableRight ButtonManager>>
-    <<disableLeft ButtonManager>>
+    //<<disableLeft ButtonManager>>
     Tara: Um, excuse me.
     //*the security creature does not budge*
     Tara: Can I get through, please?
@@ -13,19 +13,19 @@ tags:
     Tara: Well, okay then.
     Tara: But I'm coming back.
     <i>...hissssss?</i>
-    <<enableLeft ButtonManager>>
+    //<<enableLeft ButtonManager>>
 <<else>>
-<<disableRight ButtonManager>>
-<<disableLeft ButtonManager>>
+    <<disableRight ButtonManager>>
+    <<disableLeft ButtonManager>>
     Tara: Um, I have a backstage pass? For VIP?
     //*she gives the pass to the Security Creature*
     <<playCrunch SecurityManager>>
     <i>Crunchcrunchcrunch</i>
     Tara: Okay, that thing just ate the pass.
-    <<enableRight ButtonManager>>
     Tara: Guess this is the point of no return.
     //*The creature eats the pass and departs, leaving the way open*
     //Tara: Oh god oh god what if he's about to eat her too? 
     Tara: I'm coming, Jennie!
+    <<enableRight ButtonManager>>
 <<endif>>
 ===

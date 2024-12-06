@@ -4,6 +4,7 @@ position: -82,-126
 ---
 <<declare $shoelaceMissionStart = false>>
 <<declare $isEaten = false>>
+<<declare $hasBottle = false>>
 <<if $ShoelaceGet == true>>
 <<revealSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
@@ -39,7 +40,35 @@ Volunteer: From your mouth to god's ears.
 <<endif>>
 ///In the tents
 
+//CONTRABAND INTRO
 <<if $isEaten == true>>
+<<hideSprite VolunteerManager>>
+<<revealSprite ContrabandManager>>
+//Tara runs from Porta Potties
+Tara: Oh my god. Oh my god.
+Tara: Oh my god.
+Tara: Did he just. Eat her?
+Tara: Where the hell am I?
+Tara: What the hell is going on?
+Tara: I gotta get Jennie and get out.
+Tara: Oh god, what if he comes after me? Or her?
+Tara: Or anyone?
+Tara: I've gotta protect myself.
+Tara: Oh. Hey. The contraband box... with no one guarding it.
+Tara: Interesting.
+Tara: I might as well look inside...
+<<wait  1>>
+Tara: Pills, pills, more pills.
+Tara: Wait.
+Tara: Is this a full bottle of absinthe?!
+Tara: Maybe I can use it as a weapon somehow, I don't know.
+//take bottle
+<<set $hasBottle to true>>
+Tara: I should really try and find Jennie before things get any worse.
+<<endif>>
+===
+title: ShoelaceBegin
+---
 <<hideSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
@@ -71,5 +100,5 @@ Tara: Okay.
 Tara: Didn't I see a shoelace lying around somewhere? I should look around...
 <<enableRight ButtonManager>>
 <<enableLeft ButtonManager>>
-<<endif>>
+<<stop>>
 ===
