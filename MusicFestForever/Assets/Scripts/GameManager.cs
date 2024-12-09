@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public string sceneName;
     public bool shoelaceGet = false;
     public bool hasPass = false;
+    public bool hasFabric = false;
 
     private void Awake()
     {
@@ -53,6 +54,19 @@ public class GameManager : MonoBehaviour
         return shoelaceGet;
     }
 
+    [YarnCommand("FabricGet")]
+    public bool FabricGet()
+    {
+        hasFabric = true;
+        return hasFabric;
+    }
+    
+    [YarnCommand("HasPass")]
+    public bool HasPass()
+    {
+        hasPass = true;
+        return hasFabric;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -60,6 +74,7 @@ public class GameManager : MonoBehaviour
         variableStorage.SetValue("$shoelaceMissionStart", shoelaceMissionStart);
         variableStorage.SetValue("$isEaten", isEaten);
         variableStorage.SetValue("$hasPass", hasPass);
+        variableStorage.SetValue("$hasFabric", hasFabric);
 
         if (sceneName == "Field" && intro)
         {
@@ -92,12 +107,18 @@ public class GameManager : MonoBehaviour
                 
         }
 
-
         if (sceneName == "Tent" && isEaten )
         {
             isEaten = false;
             shoelaceMissionStart = true;
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
+            
+        }
+        if (sceneName == "Tent" && hasFabric  )
+        {
+            hasFabric = false;
+            shoelaceMissionStart = true;
+            dialogueRunner.StartDialogue("ShoelaceBegin");
         }
         if (sceneName == "Tent" && shoelaceGet )
         {
@@ -106,7 +127,21 @@ public class GameManager : MonoBehaviour
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
             hasPass = true;
         }
-        
+
+        if (sceneName == "Backstage" )
+        {
+            
+            dialogueRunner.StartDialogue("SecurityCheck");
+        }
+        {
+            
+        }
+
+        if (sceneName == "Backstage" && hasPass)
+        {
+            hasPass = false;
+            dialogueRunner.StartDialogue("JennieFishKing");
+        }
 
     }
 }

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      glitteryarnspinner_0: 3547049453998399008
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

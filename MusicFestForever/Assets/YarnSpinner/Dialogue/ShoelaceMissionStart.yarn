@@ -4,7 +4,9 @@ position: -82,-126
 ---
 <<declare $shoelaceMissionStart = false>>
 <<declare $isEaten = false>>
+<<declare $Contrabandbox = false>>
 <<declare $hasBottle = false>>
+<<declare $hasFabric = false>>
 <<if $ShoelaceGet == true>>
 <<revealSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
@@ -44,6 +46,8 @@ Volunteer: From your mouth to god's ears.
 <<if $isEaten == true>>
 <<hideSprite VolunteerManager>>
 <<revealSprite ContrabandManager>>
+<<disableLeft ButtonManager>>
+<<disableRight ButtonManager>>
 //Tara runs from Porta Potties
 Tara: Oh my god. Oh my god.
 Tara: Oh my god.
@@ -56,6 +60,15 @@ Tara: Or anyone?
 Tara: I've gotta protect myself.
 Tara: Oh. Hey. The contraband box... with no one guarding it.
 Tara: Interesting.
+<<set $Contrabandbox = true>>
+<<enableRight ButtonManager>>
+<<enableLeft ButtonManager>>
+//Tara: I should really try and find Jennie before things get any worse.
+<<endif>>
+===
+title: Contraband
+---
+<<if $Contrabandbox == true>>
 Tara: I might as well look inside...
 <<wait  1>>
 Tara: Pills, pills, more pills.
@@ -64,7 +77,15 @@ Tara: Is this a full bottle of absinthe?!
 Tara: Maybe I can use it as a weapon somehow, I don't know.
 //take bottle
 <<set $hasBottle to true>>
-Tara: I should really try and find Jennie before things get any worse.
+Tara: What if... 
+Tara: Yeah! I just need a piece of fabric and a lighter...
+Tara: Where can I get fabric...
+<<set $Contrabandbox = false>>
+<<endif>>
+
+<<if $hasPass == true>>
+Tara: I can use this with the fabric and-
+Tara: I'm coming Jennie...
 <<endif>>
 ===
 title: ShoelaceBegin
@@ -73,8 +94,7 @@ title: ShoelaceBegin
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
 /// this plays after the player sees glitter glue get eaten
-Tara: That... what was THAT?
-Tara: I- we need to leave. I need to find Jennie and get the hell out of here.
+Tara: I need- ugh this day is insane
 Volunteer: Can I help you?
 Volunteer: ...
 Volunteer: Hello? You're in my sun.
@@ -101,4 +121,19 @@ Tara: Didn't I see a shoelace lying around somewhere? I should look around...
 <<enableRight ButtonManager>>
 <<enableLeft ButtonManager>>
 <<stop>>
+===
+title: scrap_of_fabric
+---
+<<disableLeft ButtonManager>>
+<<disableRight ButtonManager>>
+<<if $hasBottle == true>>
+/// this plays after the player sees glitter glue get eaten
+Tara:  Yes! 
+Tara: Thank you for your sacrifice Glitter Glue.
+Tara: Now where would I find a lighter...
+<<set $hasFabric to true>>
+<<FabricGet GameManager>>
+<<hideSprite FabricHideManager>>
+<<endif>>
+<<enableLeft ButtonManager>>
 ===
