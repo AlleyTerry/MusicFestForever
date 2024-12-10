@@ -29,3 +29,20 @@ tags:
     <<enableRight ButtonManager>>
 <<endif>>
 ===
+title: SecurityIntro
+---
+<<if $hasFabric is true>>
+<<hideSprite FabricHideManager>>
+Tara: I think backstage is this way, but...
+Tara: There's a gargoyle guarding the way...
+Tara: Where did they get a gargoyle?
+Tara: Is that thing alive?
+Tara: How much is this festival's budget?!
+<<else>> //default text but fabric is there
+Tara: I think backstage is this way, but...
+Tara: There's a gargoyle guarding the way...
+Tara: Where did they get a gargoyle?
+Tara: Is that thing alive?
+Tara: How much is this festival's budget?!
+<<endif>>
+===
