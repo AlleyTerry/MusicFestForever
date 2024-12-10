@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public bool shoelaceGet = false;
     public bool hasPass = false;
     public bool hasFabric = false;
+    public bool theEnd = false;
 
     private void Awake()
     {
@@ -128,18 +129,16 @@ public class GameManager : MonoBehaviour
             hasPass = true;
         }
 
-        if (sceneName == "Backstage" )
-        {
-            
-            dialogueRunner.StartDialogue("SecurityCheck");
-        }
-        {
-            
-        }
-
-        if (sceneName == "Backstage" && hasPass)
+        if (sceneName == "Porta" && hasPass)
         {
             hasPass = false;
+            theEnd = true;
+            dialogueRunner.StartDialogue("SecurityIntro");
+        }
+
+        if (sceneName == "Backstage" && theEnd)
+        {
+            theEnd = false;
             dialogueRunner.StartDialogue("JennieFishKing");
         }
 

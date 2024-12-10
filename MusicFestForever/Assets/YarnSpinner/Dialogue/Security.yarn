@@ -2,7 +2,8 @@
 tags:
 ---
 <<declare $hasPass = false>>
-<<if $hasPass == false>>
+<<declare $theEnd = false>>
+<<if $theEnd == false>>
     //*Tara goes towards backstage and finds the Security Creature barring the entrance*
     <<disableRight ButtonManager>>
     //<<disableLeft ButtonManager>>
@@ -27,6 +28,7 @@ tags:
     //Tara: Oh god oh god what if he's about to eat her too? 
     Tara: I'm coming, Jennie!
     <<enableRight ButtonManager>>
+
 <<endif>>
 ===
 title: SecurityIntro
@@ -44,5 +46,6 @@ Tara: There's a gargoyle guarding the way...
 Tara: Where did they get a gargoyle?
 Tara: Is that thing alive?
 Tara: How much is this festival's budget?!
+<<set $theEnd = true>>
 <<endif>>
 ===
