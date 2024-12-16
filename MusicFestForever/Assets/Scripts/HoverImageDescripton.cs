@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class HoverColor : MonoBehaviour
+public class HoverImageDescripton : MonoBehaviour
 {
+    public GameObject DescriptionImage;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +19,14 @@ public class HoverColor : MonoBehaviour
     
     private void OnMouseEnter()
     {
-        GetComponent<SpriteRenderer>().color = Color.magenta;
+        DescriptionImage.SetActive(true);
         
         Debug.Log("you are hovering over me");
     }
     
     private void OnMouseExit()
     {
-        GetComponent<SpriteRenderer>().color = Color.white;
+        DescriptionImage.SetActive(false);
     }
 }
+
