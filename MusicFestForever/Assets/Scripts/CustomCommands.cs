@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class CustomCommands : MonoBehaviour
@@ -23,7 +24,12 @@ public class CustomCommands : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+    
+    }
+    [YarnCommand("deleteSprite")]
+    public void DeleteSprite()
+    {
+        Destroy(sprite);
     }
 
     [YarnCommand("revealSprite")]

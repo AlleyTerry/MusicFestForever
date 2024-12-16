@@ -132,6 +132,7 @@ title: scrap_of_fabric
 Tara:  Yes! 
 Tara: Thank you for your sacrifice Glitter Glue.
 Tara: Now where would I find a lighter...
+<<set $shoelaceMissionStart to true>>
 <<set $hasFabric to true>>
 <<FabricGet GameManager>>
 <<hideSprite FabricHideManager>>

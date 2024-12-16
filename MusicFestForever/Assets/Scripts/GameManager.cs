@@ -8,6 +8,8 @@ using Yarn;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public static CustomCommands customCommands;
+    public GameObject sprite;
     //variables
     public InMemoryVariableStorage variableStorage;
     public DialogueRunner dialogueRunner;
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
     public bool hasPass = false;
     public bool hasFabric = false;
     public bool theEnd = false;
+    public bool needFabric = true;
 
     private void Awake()
     {
@@ -48,6 +51,12 @@ public class GameManager : MonoBehaviour
         
         
     }
+    [YarnCommand("needFabric")]
+    public bool NeedFabric()
+    {
+        needFabric = false;
+        return needFabric;
+    }
     [YarnCommand("ShoelaceGet")]
     public bool ShoelaceGet()
     {
@@ -59,6 +68,7 @@ public class GameManager : MonoBehaviour
     public bool FabricGet()
     {
         hasFabric = true;
+        
         return hasFabric;
     }
     
@@ -111,7 +121,7 @@ public class GameManager : MonoBehaviour
         if (sceneName == "Tent" && isEaten )
         {
             isEaten = false;
-            shoelaceMissionStart = true;
+            //contrabandBox = true;
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
             
         }
@@ -127,6 +137,11 @@ public class GameManager : MonoBehaviour
             shoelaceMissionStart = false;
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
             hasPass = true;
+        }
+
+        if (sceneName == "Porta" && needFabric)
+        {
+            customCommands.RevealSprite();
         }
 
         if (sceneName == "Porta" && hasPass)
