@@ -61,8 +61,7 @@ Tara: I've gotta protect myself.
 Tara: Oh. Hey. The contraband box... with no one guarding it.
 Tara: Interesting.
 <<set $Contrabandbox = true>>
-<<enableRight ButtonManager>>
-<<enableLeft ButtonManager>>
+
 //Tara: I should really try and find Jennie before things get any worse.
 <<endif>>
 ===
@@ -80,7 +79,8 @@ Tara: Maybe I can use it as a weapon somehow, I don't know.
 Tara: What if... 
 Tara: Yeah! I just need a piece of fabric and a lighter...
 Tara: Where can I get fabric...
-<<set $Contrabandbox = false>>
+<<enableRight ButtonManager>>
+<<enableLeft ButtonManager>>
 <<endif>>
 
 <<if $hasPass == true>>
@@ -138,4 +138,10 @@ Tara: Now where would I find a lighter...
 <<hideSprite FabricHideManager>>
 <<endif>>
 <<enableLeft ButtonManager>>
+===
+title: fabricCheck
+---
+
+<<hideSprite FabricHideManager>>
+
 ===

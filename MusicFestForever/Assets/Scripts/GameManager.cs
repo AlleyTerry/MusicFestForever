@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public static CustomCommands customCommands;
     public GameObject sprite;
+    public GameObject spriteChild;
     //variables
     public InMemoryVariableStorage variableStorage;
     public DialogueRunner dialogueRunner;
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     public bool hasPass = false;
     public bool hasFabric = false;
     public bool theEnd = false;
-    public bool needFabric = true;
+    public bool contrabandBox = false;
 
     private void Awake()
     {
@@ -51,12 +52,7 @@ public class GameManager : MonoBehaviour
         
         
     }
-    [YarnCommand("needFabric")]
-    public bool NeedFabric()
-    {
-        needFabric = false;
-        return needFabric;
-    }
+
     [YarnCommand("ShoelaceGet")]
     public bool ShoelaceGet()
     {
@@ -121,10 +117,19 @@ public class GameManager : MonoBehaviour
         if (sceneName == "Tent" && isEaten )
         {
             isEaten = false;
-            //contrabandBox = true;
+            contrabandBox = true;
             dialogueRunner.StartDialogue("ShoelaceMissionStart");
             
         }
+
+        if (sceneName == "Porta" && contrabandBox)
+        {
+            sprite = GameObject.Find("fabricParent"); 
+            spriteChild = sprite.transform.GetChild(0).gameObject;
+            spriteChild.SetActive(true);
+            contrabandBox = false;
+        }
+        
         if (sceneName == "Tent" && hasFabric  )
         {
             hasFabric = false;
@@ -139,9 +144,9 @@ public class GameManager : MonoBehaviour
             hasPass = true;
         }
 
-        if (sceneName == "Porta" && needFabric)
+        if (sceneName == "Porta" )
         {
-            customCommands.RevealSprite();
+            
         }
 
         if (sceneName == "Porta" && hasPass)
