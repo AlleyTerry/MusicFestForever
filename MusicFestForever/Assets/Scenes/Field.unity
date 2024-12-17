@@ -519,6 +519,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2753718018764665327, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2067174271}
+    - targetCorrespondingSourceObject: {fileID: 2753718018764665327, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2067174272}
     - targetCorrespondingSourceObject: {fileID: 7778558435068644802, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 645304322}
@@ -2604,6 +2607,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e0eda55f1358743bd343cc4ffd64e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  spriteChild: {fileID: 0}
   variableStorage: {fileID: 2067174268}
   dialogueRunner: {fileID: 2067174269}
   intro: 1
@@ -2617,6 +2622,24 @@ MonoBehaviour:
   hasPass: 0
   hasFabric: 0
   theEnd: 0
+  contrabandBox: 0
+--- !u!114 &2067174272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067174267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf14df1d1e86c1b4482ccc350405d857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  endCharacterPos: {x: 0, y: 0, z: 0}
+  startingCharacterPos: {x: 0, y: 0, z: 0}
+  duration: 3
+  elapsedTime: 0
 --- !u!1 &2141084565
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,8 +11,11 @@ position: -82,-126
 <<revealSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
+
 //*Tara returns with the Shoelace and finds the Volunteer*
+<<TaraMove GameManager>>
 Tara: I got you a shoelace.
+<<VolunteerMove GameManager>>
 Volunteer: You found the Holy Grail of shoelaces. Good work.
 Tara: Um, thanks. Will you tell me where my friend is now?
 Volunteer: You know I used to work at the RenFaire?
@@ -49,7 +52,9 @@ Volunteer: From your mouth to god's ears.
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
 //Tara runs from Porta Potties
+
 Tara: Oh my god. Oh my god.
+<<TaraMove GameManager>>
 Tara: Oh my god.
 Tara: Did he just. Eat her?
 Tara: Where the hell am I?
@@ -68,6 +73,7 @@ Tara: Interesting.
 title: Contraband
 ---
 <<if $Contrabandbox == true>>
+<<TaraMove SpeakingShow>>
 Tara: I might as well look inside...
 <<wait  1>>
 Tara: Pills, pills, more pills.
@@ -79,6 +85,7 @@ Tara: Maybe I can use it as a weapon somehow, I don't know.
 Tara: What if... 
 Tara: Yeah! I just need a piece of fabric and a lighter...
 Tara: Where can I get fabric...
+
 <<enableRight ButtonManager>>
 <<enableLeft ButtonManager>>
 <<endif>>
@@ -96,9 +103,11 @@ title: ShoelaceBegin
 <<disableRight ButtonManager>>
 /// this plays after the player sees glitter glue get eaten
 Tara: I need- ugh this day is insane
+<<VolunteerMove GameManager>>
 Volunteer: Can I help you?
 Volunteer: ...
 Volunteer: Hello? You're in my sun.
+<<TaraMove GameManager>>
 Tara: Oh, it's you again! Have you seen my friend? I-I need to leave-
 Volunteer: Maybe I have. Maybe I haven't.
 Tara: ...Okay. Um. Would you... tell me?
@@ -129,19 +138,16 @@ title: scrap_of_fabric
 <<disableRight ButtonManager>>
 <<if $hasBottle == true>>
 /// this plays after the player sees glitter glue get eaten
+
 Tara:  Yes! 
+<<TaraMove GameManager>>
 Tara: Thank you for your sacrifice Glitter Glue.
 Tara: Now where would I find a lighter...
+<<set $Contrabandbox to false>>
 <<set $shoelaceMissionStart to true>>
 <<set $hasFabric to true>>
 <<FabricGet GameManager>>
 <<hideSprite FabricHideManager>>
 <<endif>>
 <<enableLeft ButtonManager>>
-===
-title: fabricCheck
----
-
-<<hideSprite FabricHideManager>>
-
 ===

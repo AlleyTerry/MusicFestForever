@@ -7,8 +7,10 @@ tags:
     //*Tara goes towards backstage and finds the Security Creature barring the entrance*
     <<disableRight ButtonManager>>
     //<<disableLeft ButtonManager>>
+  
     Tara: Um, excuse me.
     //*the security creature does not budge*
+    <<TaraMove GameManager>>
     Tara: Can I get through, please?
     <i>Hissssssssssssssssssssssssssssss</i>
     Tara: Well, okay then.

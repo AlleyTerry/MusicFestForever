@@ -6,12 +6,15 @@ tags:
 <<revealSprite GlitterGlueManager>>
 <<hideSprite ShoelaceManager>>
 <<hideSprite FratBoyManager>>
+
 Tara: If you had told 15 year old me I would be watching a lesbian pop star headline the music festival of the summer
+<<TaraMove GameManager>>
 Tara: while singing about pussy that tastes like strawberries...
 Tara: I would not have believed you. 
 Tara: But, if you included the part about having to babysit my ex girlfriend,
 Tara: who mere weeks ago dumped me...
 Tara: that makes it all seem much more likely. 
+<<JennieMove GameManager>>
 Jennie: GLITTER GLUE I WOULD DIE FOR YOU!
 Jennie: Oh my god Tara do you remember when we first kissed at the Glitter Glue disco night?
 Tara: I do. 

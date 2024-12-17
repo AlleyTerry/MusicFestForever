@@ -4,9 +4,12 @@ tags:
 <<hideSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
+
 Tara: Hey, could I get two of those Squared Hydration thingies?
+<<VolunteerMove GameManager>>
 Volunteer: That'll be 79.99! 
 Volunteer: We except apple pay, bitcoin, and pride coin.
+<<TaraMove GameManager>>
 Tara: Huh, I think I misplaced my phone.
 Volunteer: Well, we also accept blood oaths, or your first born/adopted child!
 Tara: God, my head is pounding. 

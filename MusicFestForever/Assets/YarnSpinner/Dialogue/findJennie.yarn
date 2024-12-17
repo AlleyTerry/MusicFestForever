@@ -5,7 +5,9 @@ tags:
 <<disableRight ButtonManager>>
 //<<hideSprite GlitterGlueManager>>
 <<revealSprite GlitterGlueManager>>
+
 Tara: Ugh, just my luck I'd lose my phone.
+<<TaraMove GameManager>>
 Tara: And everything's digital and corporate now.
 Tara: Look, Jennie, I know you really wanted the new Squared Hydration Cocktail
 Tara: but I don't have my phone, have you seen it anywhere-

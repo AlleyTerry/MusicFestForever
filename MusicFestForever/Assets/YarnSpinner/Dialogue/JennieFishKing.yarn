@@ -3,8 +3,11 @@ tags:
 ---
 <<disableLeft ButtonManager>>
 //Tara sees Jennie backstage --> click on either Jennie or Fish King
+
 ???: I saw you in the crowd. You've got star power, kid.
+<<JennieMove GameManager>>
 Jennie: Me? Really?
+<<FishkingMove GameManager>>
 ???: As much as people who've got it have it.
 ???: Do you dream of stardom, erm...
 Jennie: Jennie.
@@ -17,6 +20,7 @@ Jennie: Would we need to focus test it? Is there a theme?
 Jennie: What? But she's already a person!
 ???: Glitter Glue is... retired.
 ???: Permanently.
+ <<TaraMove GameManager>>
 Tara: And you will be too, unless we <i>GET OUT OF HERE!</i>
 Jennie: Tara?! What are you doing here?
 Tara: We gotta go, Jennie, he's going to eat you-
