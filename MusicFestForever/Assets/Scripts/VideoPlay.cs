@@ -7,6 +7,7 @@ using Yarn.Unity;
 public class VideoPlay : MonoBehaviour
 {
     public VideoClip eels;
+    //also works for molotov
 
     public VideoPlayer eelsSource;
 

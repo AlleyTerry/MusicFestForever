@@ -193,7 +193,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -8821386855203240819, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
   sprite: {fileID: 568359070}
   soundSource: {fileID: 1324048343}
   wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
-  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  crunch: {fileID: 8300000, guid: 969e2a3ba88643141a3d8a7091a8e859, type: 3}
   cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
   explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
   lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
@@ -864,7 +864,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -239717159700753725, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -950,7 +950,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: 1575275451193288399, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1890,7 +1890,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -7140187283748571047, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2593,10 +2593,10 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 0.413
+  - 0.467
   m_Url: 
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 01
+  m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
@@ -2678,7 +2678,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -8712471098004035247, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2987,7 +2987,7 @@ MonoBehaviour:
   sprite: {fileID: 747420077}
   soundSource: {fileID: 1324048343}
   wetSplat: {fileID: 8300000, guid: 8db0d5b0101d28847ae7d17221d07697, type: 3}
-  crunch: {fileID: 8300000, guid: cddb5aeb08103ba40a6159a04a55f592, type: 3}
+  crunch: {fileID: 8300000, guid: 969e2a3ba88643141a3d8a7091a8e859, type: 3}
   cheer: {fileID: 8300000, guid: 2390d66f7761c6146b3654feb6e79949, type: 3}
   explosion: {fileID: 8300000, guid: 537799ad1613011499b879595ad0c5d1, type: 3}
   lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
@@ -3010,7 +3010,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 79
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -3658,7 +3658,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -3165817459123772005, guid: 05e064b3ab463e643b60ca11349aa75f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
