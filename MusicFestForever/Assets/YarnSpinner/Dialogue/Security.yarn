@@ -38,6 +38,8 @@ title: SecurityIntro
 ---
 <<if $hasFabric is true>>
 <<hideSprite FabricHideManager>>
+<<disableRight ButtonManager>>
+<<disableLeft ButtonManager>>
 Tara: I think backstage is this way, but...
 Tara: There's a gargoyle guarding the way...
 Tara: Where did they get a gargoyle?
