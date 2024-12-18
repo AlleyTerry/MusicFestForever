@@ -7,6 +7,7 @@ using Yarn.Unity;
 public class CustomCommands : MonoBehaviour
 {
     public GameObject sprite;
+    public GameObject lightersprite;
 
     public AudioSource soundSource;
 
@@ -42,6 +43,24 @@ public class CustomCommands : MonoBehaviour
     public void HideSprite()
     {
         sprite.SetActive(false);
+    }
+    
+     [YarnCommand("deletelighterSprite")]
+     public void DeleteLighterSprite()
+     {
+         Destroy(lightersprite);
+     }   
+    
+    [YarnCommand("reveallighterSprite")]
+    public void RevealLighterSprite()
+    {
+        lightersprite.SetActive(true);
+    }
+    
+    [YarnCommand("hidelighterSprite")]
+    public void HideLighterSprite()
+    {
+        lightersprite.SetActive(false);
     }
 
     [YarnCommand("playSplat")]

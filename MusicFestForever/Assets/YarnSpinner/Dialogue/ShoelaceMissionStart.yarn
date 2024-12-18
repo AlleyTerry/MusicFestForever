@@ -9,6 +9,7 @@ position: -82,-126
 <<declare $hasFabric = false>>
 <<if $ShoelaceGet == true>>
 <<revealSprite ContrabandManager>>
+<<reveallighterSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
 
@@ -38,6 +39,7 @@ Volunteer: Backstage. Here, you want to find her so bad?
 Volunteer: I confiscated this from some drunk girl who tried to sneak in a lighter.
 Volunteer: Hey, you know, if you're into arson at all, I left the lighter in the contraband box.
 Volunteer: Have at it!
+<<hidelighterSprite ContrabandManager>>
 Tara: ...Thanks. I hope you can work at the RenFaire again soon.
 Volunteer: From your mouth to god's ears.
 <<enableLeft ButtonManager>>
@@ -99,6 +101,7 @@ Tara: Hang on, Jennie...
 title: ShoelaceBegin
 ---
 <<hideSprite ContrabandManager>>
+<<hidelighterSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
 /// this plays after the player sees glitter glue get eaten

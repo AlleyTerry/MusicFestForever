@@ -4,14 +4,8 @@ tags:
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
 <<hideSprite FabricHideManager>>
--> Knock?
-    <<TaraMove GameManager>>
-    Tara: Jennie? Are you in any of these stalls?
-
-    : ...
-    -> Knock again?
-    : ... urggghh
-        -> Jennie?
+<<TaraMove GameManager>>
+        Tara: Jennie? Are you in any of these stalls?
         Stranger: Too many gluten free tacos...
         Tara: o-oh sorry have you seen my friend? She's wearing- 
         Stranger: Does it LOOK like I've seen your friend? 
