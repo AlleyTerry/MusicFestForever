@@ -32,9 +32,11 @@ Tara: I have to do something...
 ///if has molotov --> fabric, lighter, bottle
 Tara: Take this, you freak! Get molotov'd!
 <<playLighter FishKingManager>>
-<<wait  1>>
-//throws molotov --> animation
+<<playEels VideoManager>>
 <<playExplosion FishKingManager>>
+<<wait  5>>
+//throws molotov --> animation
+<<stopEels VideoManager>>
 The Fish King: NOOOOO! Alcohol set on fire, my one weakness!
 The Fish King: I must douse myself immediately to retain my form!
 <<hideSprite FishKingManager>>
