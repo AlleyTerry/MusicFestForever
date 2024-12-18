@@ -22,18 +22,18 @@ tags:
         <<revealSprite GlitterglueHideManager>>
         <<revealSprite FishKingManager>>
         <<FishkingMove GameManager>>
-        ???: Now now, we wouldn't want to let down your fans who paid good money to be here?
+        The Fish King: Now now, we wouldn't want to let down your fans who paid good money to be here?
         <<GlitterglueMove GameManager>>
         Glitter Glue: But-
-        ???: Because I can hear the headlines now "Glitter Glue abandons fans at lgbt music festival, guess she had more important things to do than show up for her community"
+        The Fish King: Because I can hear the headlines now "Glitter Glue abandons fans at lgbt music festival, guess she had more important things to do than show up for her community"
         Glitter Glue: No! That's not- I just- I physically can't anymore. 
         Glitter Glue: I can't feel my legs and my voice, it's going...
-        ???: Hmmm I guess you are right, that last performance was a little pitchy. 
-        ???: And we do need our performers at their best shape.
-        ???: Maybe you are in need of... a brief retirement... 
-        ???: Do you agree?
+        The Fish King: Hmmm I guess you are right, that last performance was a little pitchy. 
+        The Fish King: And we do need our performers at their best shape.
+        The Fish King: Maybe you are in need of... a brief retirement... 
+        The Fish King: Do you agree?
         Glitter Glue: Y-yeah! I just need a few hours and I'll be back!
-        ???: It will be a shame, the hole you will leave, but the show must go on, and you are... very replaceable.
+        The Fish King: It will be a shame, the hole you will leave, but the show must go on, and you are... very replaceable.
         Glitter Glue: Wait, no, please!
         //CRUNCH SOUND AND VIDEO PLAYS
         <<hideSprite GlitterglueHideManager>>
@@ -43,17 +43,17 @@ tags:
         <<stopEels VideoManager>>
         <<wait  1.5>>
         //*rat king either unhinges his jaw to reveal a bunch of rats, or he amalgamates into a mound of rats and lunges at glitter glue either a bunch of rats devouring her or swallowing her whole*
-        ???: *BURRRRRPPPPP* 
-        ???: what a delicous meal, now I need to find a new replace- 
-        ???: *cough* *hack*
+        The Fish King: *BURRRRRPPPPP* 
+        The Fish King: What a delicous meal, now I need to find a new replace- 
+        The Fish King: *cough* *hack*
         <<playSplat SoundSource>>
         <<revealSprite FabricHideManager>>
         //*rat king throws up something of glitter glue* maybe an item the player can take later
-        ???: Ugh. Sequins. Can't digest 'em.
+        The Fish King: Ugh. Sequins. Can't digest 'em.
         //*Tara backs up into one of the stalls in shock*
         Tara: Oh my god, Glitter Glue...
         Tara: Jennie's going to be devastated...
-        ???: Who's there?
+        The Fish King: Who's there? Don't make me fire you...
         Tara: I gotta get out of here!
         <<enableLeft ButtonManager>>
         <<stop>>

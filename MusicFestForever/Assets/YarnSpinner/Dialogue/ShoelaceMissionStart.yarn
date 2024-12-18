@@ -36,7 +36,8 @@ Volunteer: Backstage. Here, you want to find her so bad?
 //*Volunteer gives Tara the backstage pass*
 //GIVE BACKSTAGE PASS
 <<set $hasPass to true>>
-Volunteer: I confiscated this from some drunk girl who tried to sneak in a lighter.
+Volunteer: I confiscated this VIP pass from some drunk girl who tried to sneak in a lighter.
+Volunteer: No VIP passes for potential arsonists or smokers, apparently. Tragic.
 Volunteer: Hey, you know, if you're into arson at all, I left the lighter in the contraband box.
 Volunteer: Have at it!
 <<hidelighterSprite ContrabandManager>>

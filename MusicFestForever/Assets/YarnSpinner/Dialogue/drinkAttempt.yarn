@@ -4,6 +4,7 @@ tags:
 <<hideSprite ContrabandManager>>
 <<disableLeft ButtonManager>>
 <<disableRight ButtonManager>>
+<<hidelighterSprite lighter>>
 
 Tara: Hey, could I get two of those Squared Hydration thingies?
 <<VolunteerMove GameManager>>

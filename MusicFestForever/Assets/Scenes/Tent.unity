@@ -375,7 +375,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0784502, y: 0.11375427}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -385,7 +385,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.10666, y: 4.5946236}
   m_EdgeRadius: 0
 --- !u!114 &54332922
 MonoBehaviour:
@@ -1634,6 +1634,7 @@ GameObject:
   - component: {fileID: 1135935866}
   - component: {fileID: 1135935869}
   - component: {fileID: 1135935868}
+  - component: {fileID: 1135935870}
   m_Layer: 0
   m_Name: lighter
   m_TagString: Untagged
@@ -1768,6 +1769,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.453947, y: 2.4863892}
   m_EdgeRadius: 0
+--- !u!114 &1135935870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135935865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6e440b63307d041a82858b518fb9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  lightersprite: {fileID: 1135935865}
+  soundSource: {fileID: 0}
+  wetSplat: {fileID: 0}
+  crunch: {fileID: 0}
+  cheer: {fileID: 0}
+  explosion: {fileID: 0}
+  lighter: {fileID: 8300000, guid: 7733f10d1f50b7847aa046b330d8303e, type: 3}
 --- !u!1 &1142615264
 GameObject:
   m_ObjectHideFlags: 0

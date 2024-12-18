@@ -4,34 +4,35 @@ tags:
 <<disableLeft ButtonManager>>
 //Tara sees Jennie backstage --> click on either Jennie or Fish King
 
-???: I saw you in the crowd. You've got star power, kid.
+The Fish King: I saw you in the crowd. You've got star power, kid.
 <<JennieMove GameManager>>
 Jennie: Me? Really?
 <<FishkingMove GameManager>>
-???: As much as people who've got it have it.
-???: Do you dream of stardom, erm...
+The Fish King: As much as people who've got it have it.
+The Fish King: Do you dream of stardom, erm...
 Jennie: Jennie.
-???: I can make you a star, Jennie.
+The Fish King: I can make you a star, Jennie.
 Jennie: Oh my god, this is my Lizzie McGuire moment!
-???: Oh, sure, yes. This is just like Lozzie Magwyre.
+The Fish King: Oh, sure, yes. This is just like Lozzie Magwyre.
 Jennie: Would I need a popstar name? Should I think of one, or does marketing do that?
 Jennie: Would we need to focus test it? Is there a theme?
-???: How about... Glitter Glue.
+The Fish King: How about... Glitter Glue.
 Jennie: What? But she's already a person!
-???: Glitter Glue is... retired.
-???: Permanently.
+The Fish King: Glitter Glue is... retired.
+The Fish King: Permanently.
  <<TaraMove GameManager>>
 Tara: And you will be too, unless we <i>GET OUT OF HERE!</i>
 Jennie: Tara?! What are you doing here?
 Tara: We gotta go, Jennie, he's going to eat you-
 Jennie: What? This is my big break!
-???: Yes, you nobody, this is her big break!
-???: I'm the Fish King! I run this place! You can't stop me!
+The Fish King: Yes, you nobody, this is her big break!
+The Fish King: I'm the Fish King! I run this place! You can't stop me!
 The Fish King: Don't ruin this for me-I mean her!
 Tara: I have to do something...
+Tara: I just have to light this fabric on fire, and...
+<<playLighter FishKingManager>>
 ///if has molotov --> fabric, lighter, bottle
 Tara: Take this, you freak! Get molotov'd!
-<<playLighter FishKingManager>>
 <<playEels VideoManager>>
 <<playExplosion FishKingManager>>
 <<wait  5>>
